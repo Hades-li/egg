@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+.ub {
+  display: -webkit-box;
+  display: box;
+  display: -webkit-flex;
+  display: flex; }
+
+.ubc {
+  display: -webkit-box;
+  display: box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.ub-rev {
+  -webkit-box-direction: reverse;
+  box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse; }
+
+.ub-ver {
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+.ub-con {
+  width: 100%;
+  height: 100%; }
+
+.ub-fh {
+  width: 100%; }
+
+.ub-fv {
+  height: 100%; }
+
+.ub-as {
+  -webkit-box-align: start;
+  box-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start; }
+
+.ub-ac {
+  -webkit-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.ub-ae {
+  -webkit-box-align: end;
+  box-align: end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end; }
+
+.ub-af {
+  -webkit-box-align: stretch;
+  box-align: stretch;
+  -webkit-align-items: stretch;
+  align-items: stretch; }
+
+.ub-ab {
+  -webkit-box-align: baseline;
+  box-align: baseline;
+  -webkit-align-items: baseline;
+  align-items: baseline; }
+
+.ub-ps {
+  -webkit-box-pack: start;
+  box-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start; }
+
+.ub-pc {
+  -webkit-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.ub-pe {
+  -webkit-box-pack: end;
+  box-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end; }
+
+.ub-pj {
+  -webkit-box-pack: justify;
+  box-pack: justify;
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+
+.ub-par {
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+
+.ub-pbt {
+  -webkit-justify-content: space-between;
+  justify-content: space-between; }
+
+.ub-f1 {
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1; }
+
+.ub-f2 {
+  -webkit-box-flex: 2;
+  box-flex: 2;
+  -webkit-flex: 2;
+  flex: 2; }
+
+.ub-f3 {
+  -webkit-box-flex: 3;
+  box-flex: 3;
+  -webkit-flex: 3;
+  flex: 3; }
+
+.ub-f4 {
+  -webkit-box-flex: 4;
+  box-flex: 4;
+  -webkit-flex: 4;
+  flex: 4; }
+
+.ub-fa {
+  -webkit-box-flex: auto;
+  box-flex: auto;
+  -webkit-flex: auto;
+  flex: auto; }
+
+.ub-fn {
+  -webkit-box-flex: none;
+  box-flex: none;
+  -webkit-flex: none;
+  flex: none; }
+
+.ub-img,
+.bgs-sy,
+.bgs-shiying,
+.bgs-contain {
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.ub-img1,
+.bgs-tc,
+.bgs-tianchong,
+.bgs-fill,
+.bgs-fullfill {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.ub-img2,
+.bgs-ppx,
+.bgs-pingpu-x,
+.bgs-rptx,
+.bgs-repeat-x {
+  background-repeat: repeat-x;
+  background-size: auto 100%; }
+
+.bg3,
+.bgs-ppy,
+.bgs-pingpu-y,
+.bgs-rpty,
+.bgs-repeat-y {
+  background-repeat: repeat-y;
+  background-size: 100% auto; }
+
+.ub-img4,
+.bgs-fwc,
+.bgs-jzy,
+.bgs-cty,
+.bgs-center-y {
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.ub-img5,
+.bgs-fhc,
+.bgs-jzx,
+.bgs-ctx,
+.bgs-centerx {
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.ub-img6,
+.bgs-jz,
+.bgs-juzhong,
+.bgs-ct,
+.bgs-center {
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.ub-img7,
+.bgs-ls,
+.bgs-lashen,
+.bgs-stretch {
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center; }

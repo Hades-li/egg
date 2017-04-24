@@ -1,5 +1,4 @@
 ;(function(win, lib) {
-    console.log('启动');
     var doc = win.document;
     var docEl = doc.documentElement;
     var metaEl = doc.querySelector('meta[name="viewport"]');

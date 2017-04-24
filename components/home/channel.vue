@@ -29,6 +29,7 @@
 </script>
 <style lang="scss" scoped>
     @import '../../assets/css/mixin.scss';
+
     .channel{
         ul {
             height: px2rem(204px);
@@ -44,7 +45,7 @@
                     background: #666;
                 }
                 p{
-                    @include font-dpr(12px);
+                    @include font-dpr(24px);
                     line-height: px2rem(38px);
                     text-align: center;
                 }

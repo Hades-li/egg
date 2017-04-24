@@ -1,13 +1,20 @@
 module.exports = {
     /*
      ** Headers of the page
+     * <meta content="yes" name="apple-mobile-web-app-capable" />
+     <meta content="yes" name="apple-touch-fullscreen" />
+     <meta content="telephone=no,email=no" name="format-detection" />
+     <meta content="maximum-dpr=2" name="flexible" />
+     <meta content="modeName=750-12" name="grid" />
      */
     head: {
         title: 'starter',
         meta: [
             {charset: 'utf-8'},
-            {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-            {hid: 'description', name: 'description', content: 'Nuxt.js project'}
+            {hid: 'description', name: 'description', content: 'Nuxt.js project'},
+            {content: 'yes', name: 'apple-mobile-web-app-capable'},
+            {content: 'yes', name: 'apple-touch-fullscreen'},
+            {content: 'telephone=no,email=no', name: 'format-detection'}
         ],
         link: [
             {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}

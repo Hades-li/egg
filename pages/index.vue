@@ -1,19 +1,22 @@
 <template>
     <div class="home">
-        <banner>
-        </banner>
-        <channel></channel>
+        <banner></banner>
+        <channel class="mb20"></channel>
+        <arrow-more class="b-bottom"></arrow-more>
     </div>
 </template>
 
 <script>
     import channel from '../components/home/channel.vue'
+    import arrowMore from '../components/home/arrow-more.vue'
+
     export default {
         asyncData () {
             // todo
         },
         components: {
-            channel
+            channel,
+            arrowMore
         },
         head () {
             return {

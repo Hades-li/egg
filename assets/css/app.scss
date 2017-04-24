@@ -1,6 +1,16 @@
 @charset "utf-8";
 @import "./normalize.scss";
+@import "./mixin";
+@import "../fonts/iconfont.css";
 
 body{
     background-color: #e9e8ee;
+}
+
+.b-bottom{
+    border-bottom: px2rem(2px) solid #e8e8e8;
+}
+
+.mb20{
+    margin-bottom: px2rem(20px);
 }

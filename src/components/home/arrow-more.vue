@@ -37,6 +37,5 @@
             @include font-dpr(20px);
             color: #848484;
         }
-
     }
 </style>

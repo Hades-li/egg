@@ -19,11 +19,12 @@
     @import "~assets/css/mixin.scss";
 
     .goods-item{
-        width: px2rem(344px);
+        width: px2rem(340px);
         padding-bottom: px2rem(25px);
+        border: 1px solid #ddd;
         background-color: #fff;
         img {
-            max-width: px2rem(331px);
+            max-width: px2rem(340px);
             max-height: px2rem(208px);
         }
         .inf-wrap{
@@ -35,9 +36,11 @@
                 line-height: 1.5;
             }
             .price{
+                @include font-dpr(26px);
                 color: #e33d3f;
                 &:before{
-                    content: '¥';
+                    content: '¥ ';
+                    @include font-dpr(24px);
                 }
             }
         }

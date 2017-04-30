@@ -1,6 +1,6 @@
 <template>
     <div class="copyrights">
-        鲜有蛋官方商城
+        <i class="icon iconfont icon-copyright"></i> 源森蛋官方商城
     </div>
 </template>
 <script>
@@ -17,5 +17,9 @@
         line-height: px2rem(82px);
         text-align: center;
         color:#a2a2a4;
+        vertical-align: middle;
+        .icon{
+            @include font-dpr(24px);
+        }
     }
 </style>

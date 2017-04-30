@@ -19,7 +19,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 px2rem(20px);
+        padding: 0 px2rem(24px);
         height: px2rem(90px);
         background-color: #fff;
         .l-text{

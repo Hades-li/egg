@@ -26,14 +26,14 @@
 <style lang="scss" scoped>
     @import '~assets/css/mixin.scss';
     .recommend-win{
-        padding: px2rem(19px) 0 px2rem(30px) px2rem(19px);
+        padding: px2rem(19px) 0 px2rem(30px) px2rem(10.5px);
         background-color: #fff;
         ul{
             display: flex;
             justify-content: flex-start;
             flex-flow: wrap;
             li{
-                padding: 0 px2rem(9px);
+                padding: 0 px2rem(13.5px);
             }
         }
     }

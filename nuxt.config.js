@@ -33,6 +33,15 @@ module.exports = {
      ** Add axios globally
      */
     build: {
+        babel: {
+            presets: ['es2015', 'stage-2'],
+            plugins: [["component", [
+                {
+                    "libraryName": "mint-ui",
+                    "style": true
+                }
+            ]]]
+        },
         vendor: ['axios'],
         extend (config, ctx) {
             if (ctx.isClient) {
